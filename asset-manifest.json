@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/just-do-it/static/css/main.c07902ec.css",
+    "main.js": "/just-do-it/static/js/main.c4a5224f.js",
+    "index.html": "/just-do-it/index.html",
+    "static/media/close.svg": "/just-do-it/static/media/close.90451708e56a4de8effce8401ee2fd1d.svg",
+    "static/media/check.svg": "/just-do-it/static/media/check.fd99f49e134794f0d59a66b3454bf8c5.svg",
+    "static/media/circle.svg": "/just-do-it/static/media/circle.f86396808ed37462da5e2a741031fc0b.svg",
+    "main.c07902ec.css.map": "/just-do-it/static/css/main.c07902ec.css.map",
+    "main.c4a5224f.js.map": "/just-do-it/static/js/main.c4a5224f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c07902ec.css",
+    "static/js/main.c4a5224f.js"
+  ]
+}
