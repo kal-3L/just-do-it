@@ -12,7 +12,7 @@ function TodoSearch() {
     return(
         <>
 
-            <div className='d-flex justify-content-end'>
+            <div className='d-flex justify-content-end' style={{width: '175px'}}>
             
                 <input 
                     type="text" 

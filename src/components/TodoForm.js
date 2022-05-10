@@ -30,7 +30,7 @@ function TodoForm() {
             <form onSubmit={ onSubmit }>
 
                 <div className="mb-3 mt-3">
-                    <textarea value={ newTodoValue } onChange={onChange} className="form-control" id="exampleFormControlTextarea1" placeholder='write something...' rows="3"></textarea>
+                    <textarea value={ newTodoValue } onChange={onChange} className={`form-control  ${invalidTask ? 'is-invalid' : ''}` }id="exampleFormControlTextarea1" placeholder='write something...' rows="3"></textarea>
                 </div>
              
                 { invalidTask &&  <small className='text-danger' style={{fontFamily: ['Cabin Sketch']}}> Please, write a task description. </small>}

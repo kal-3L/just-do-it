@@ -59,6 +59,7 @@ function AppUI() {
                 <CreateTask/>
 
                 <div className='d-flex justify-content-between align-items-center mb-3'>
+                    
                     <CreateTodoButton/>
 
                     <TodoSearch/>
@@ -88,7 +89,7 @@ function AppUI() {
                 }
 
                 { !loading && !filterTodos.length &&  
-                    <div class="alert alert-dismissible alert-primary mt-4 text-center" style={{fontFamily: ['Cabin Sketch'], fontWeight: 400}}>
+                    <div className="alert alert-dismissible alert-primary mt-4 text-center" style={{fontFamily: ['Cabin Sketch'], fontWeight: 400}}>
                     
                         <span> No tasks... </span> 
 
